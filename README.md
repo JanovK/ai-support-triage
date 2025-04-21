@@ -65,9 +65,9 @@ git clone https://github.com/JanovK/ai-support-triage.git
 cd ai-support-triage
 
 # Set up environment
-python3.10 -m venv venv
+./setup.sh # On Linux / macOS
+setup.bat # On Windows
 source venv/bin/activate
-pip install -r requirements.txt
 
 # Run local test
 pytest tests/
