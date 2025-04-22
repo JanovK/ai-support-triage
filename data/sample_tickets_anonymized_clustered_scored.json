@@ -1,0 +1,152 @@
+[
+  {
+    "ticket_id": "T001",
+    "subject": "Can't access account",
+    "body": "I'm unable to log in even after resetting my password.",
+    "lang": "no",
+    "channel": "email",
+    "timestamp": "2025-04-01T09:00:00Z",
+    "cluster_id": 0,
+    "urgency_score": 0.417,
+    "urgency_reason": {
+      "sentiment": "NEGATIVE",
+      "confidence": 0.9990465044975281,
+      "rules_score": 0.16666666666666666
+    }
+  },
+  {
+    "ticket_id": "T002",
+    "subject": "Order delayed again",
+    "body": "My package was due [DATE_REDACTED] and it still hasn't arrived.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-02T12:30:00Z",
+    "cluster_id": -1,
+    "urgency_score": 0.3,
+    "urgency_reason": {
+      "sentiment": "NEGATIVE",
+      "confidence": 0.9996657371520996,
+      "rules_score": 0.0
+    }
+  },
+  {
+    "ticket_id": "T003",
+    "subject": "Issue with payment method",
+    "body": "My credit card was declined but it works on other sites.",
+    "lang": "en",
+    "channel": "mobile",
+    "timestamp": "2025-04-03T14:45:00Z",
+    "cluster_id": 1,
+    "urgency_score": 0.417,
+    "urgency_reason": {
+      "sentiment": "NEGATIVE",
+      "confidence": 0.9838162064552307,
+      "rules_score": 0.16666666666666666
+    }
+  },
+  {
+    "ticket_id": "T004",
+    "subject": "[PERSON_REDACTED] crashes on startup",
+    "body": "The mobile app closes immediately when I try to open it.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-03T15:10:00Z",
+    "cluster_id": -1,
+    "urgency_score": 0.533,
+    "urgency_reason": {
+      "sentiment": "NEGATIVE",
+      "confidence": 0.9995307922363281,
+      "rules_score": 0.3333333333333333
+    }
+  },
+  {
+    "ticket_id": "T005",
+    "subject": "Refund request",
+    "body": "I'd like a refund for my last purchase – it was the wrong item.",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-04T08:15:00Z",
+    "cluster_id": 1,
+    "urgency_score": 0.417,
+    "urgency_reason": {
+      "sentiment": "NEGATIVE",
+      "confidence": 0.9996697902679443,
+      "rules_score": 0.16666666666666666
+    }
+  },
+  {
+    "ticket_id": "T006",
+    "subject": "Can't update billing info",
+    "body": "The billing section keeps showing an error on submission.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-04T10:50:00Z",
+    "cluster_id": 1,
+    "urgency_score": 0.58,
+    "urgency_reason": {
+      "sentiment": "NEGATIVE",
+      "confidence": 0.9982189536094666,
+      "rules_score": 0.39999999999999997
+    }
+  },
+  {
+    "ticket_id": "T007",
+    "subject": "Two-factor authentication failed",
+    "body": "I'm not receiving the verification code on my phone.",
+    "lang": "en",
+    "channel": "mobile",
+    "timestamp": "2025-04-05T07:40:00Z",
+    "cluster_id": 0,
+    "urgency_score": 0.3,
+    "urgency_reason": {
+      "sentiment": "NEGATIVE",
+      "confidence": 0.9996346235275269,
+      "rules_score": 0.0
+    }
+  },
+  {
+    "ticket_id": "T008",
+    "subject": "Tracking number not working",
+    "body": "The tracking page says 'number not found'.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-06T11:25:00Z",
+    "cluster_id": -1,
+    "urgency_score": 0.533,
+    "urgency_reason": {
+      "sentiment": "NEGATIVE",
+      "confidence": 0.9994699358940125,
+      "rules_score": 0.3333333333333333
+    }
+  },
+  {
+    "ticket_id": "T009",
+    "subject": "Bug in checkout process",
+    "body": "The site freezes at the payment confirmation step.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-06T15:50:00Z",
+    "cluster_id": 1,
+    "urgency_score": 0.3,
+    "urgency_reason": {
+      "sentiment": "NEGATIVE",
+      "confidence": 0.9994868040084839,
+      "rules_score": 0.0
+    }
+  },
+  {
+    "ticket_id": "T010",
+    "subject": "Wrong account details displayed",
+    "body": "My profile shows someone else's email and address.",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-07T09:30:00Z",
+    "cluster_id": -1,
+    "urgency_score": 0.3,
+    "urgency_reason": {
+      "sentiment": "NEGATIVE",
+      "confidence": 0.9996956586837769,
+      "rules_score": 0.0
+    }
+  }
+]
