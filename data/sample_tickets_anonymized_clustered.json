@@ -5,7 +5,8 @@
     "body": "I'm unable to log in even after resetting my password.",
     "lang": "no",
     "channel": "email",
-    "timestamp": "2025-04-01T09:00:00Z"
+    "timestamp": "2025-04-01T09:00:00Z",
+    "cluster_id": 0
   },
   {
     "ticket_id": "T002",
@@ -13,7 +14,8 @@
     "body": "My package was due [DATE_REDACTED] and it still hasn't arrived.",
     "lang": "en",
     "channel": "web",
-    "timestamp": "2025-04-02T12:30:00Z"
+    "timestamp": "2025-04-02T12:30:00Z",
+    "cluster_id": -1
   },
   {
     "ticket_id": "T003",
@@ -21,7 +23,8 @@
     "body": "My credit card was declined but it works on other sites.",
     "lang": "en",
     "channel": "mobile",
-    "timestamp": "2025-04-03T14:45:00Z"
+    "timestamp": "2025-04-03T14:45:00Z",
+    "cluster_id": 1
   },
   {
     "ticket_id": "T004",
@@ -29,7 +32,8 @@
     "body": "The mobile app closes immediately when I try to open it.",
     "lang": "en",
     "channel": "email",
-    "timestamp": "2025-04-03T15:10:00Z"
+    "timestamp": "2025-04-03T15:10:00Z",
+    "cluster_id": -1
   },
   {
     "ticket_id": "T005",
@@ -37,7 +41,8 @@
     "body": "I'd like a refund for my last purchase – it was the wrong item.",
     "lang": "en",
     "channel": "chat",
-    "timestamp": "2025-04-04T08:15:00Z"
+    "timestamp": "2025-04-04T08:15:00Z",
+    "cluster_id": 1
   },
   {
     "ticket_id": "T006",
@@ -45,7 +50,8 @@
     "body": "The billing section keeps showing an error on submission.",
     "lang": "en",
     "channel": "web",
-    "timestamp": "2025-04-04T10:50:00Z"
+    "timestamp": "2025-04-04T10:50:00Z",
+    "cluster_id": 1
   },
   {
     "ticket_id": "T007",
@@ -53,7 +59,8 @@
     "body": "I'm not receiving the verification code on my phone.",
     "lang": "en",
     "channel": "mobile",
-    "timestamp": "2025-04-05T07:40:00Z"
+    "timestamp": "2025-04-05T07:40:00Z",
+    "cluster_id": 0
   },
   {
     "ticket_id": "T008",
@@ -61,7 +68,8 @@
     "body": "The tracking page says 'number not found'.",
     "lang": "en",
     "channel": "email",
-    "timestamp": "2025-04-06T11:25:00Z"
+    "timestamp": "2025-04-06T11:25:00Z",
+    "cluster_id": -1
   },
   {
     "ticket_id": "T009",
@@ -69,7 +77,8 @@
     "body": "The site freezes at the payment confirmation step.",
     "lang": "en",
     "channel": "web",
-    "timestamp": "2025-04-06T15:50:00Z"
+    "timestamp": "2025-04-06T15:50:00Z",
+    "cluster_id": 1
   },
   {
     "ticket_id": "T010",
@@ -77,6 +86,7 @@
     "body": "My profile shows someone else's email and address.",
     "lang": "en",
     "channel": "chat",
-    "timestamp": "2025-04-07T09:30:00Z"
+    "timestamp": "2025-04-07T09:30:00Z",
+    "cluster_id": -1
   }
 ]
