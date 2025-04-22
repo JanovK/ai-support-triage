@@ -1,4 +1,8 @@
-from src.mask_pii import mask_text
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
+
+from mask_pii import mask_text
 
 def test_email_masking():
     input_text = "Please contact john.doe@example.com for more info."
