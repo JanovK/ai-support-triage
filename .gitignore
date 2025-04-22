@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Sample data
+data/*.json
+!data/sample_*.json

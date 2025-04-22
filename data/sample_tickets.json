@@ -1,0 +1,19 @@
+[
+    {
+      "ticket_id": "1001",
+      "subject": "Login failure on mobile app",
+      "body": "Hello, I cannot access my account via the app.",
+      "lang": "",
+      "channel": "email",
+      "timestamp": "2025-04-20T10:15:00Z"
+    },
+    {
+      "ticket_id": "1002",
+      "subject": "Données de paiement",
+      "body": "J'ai entré les bonnes informations de carte mais ça bloque.",
+      "lang": "",
+      "channel": "web",
+      "timestamp": "2025-04-20T11:02:00Z"
+    }
+  ]
+  
