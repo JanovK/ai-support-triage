@@ -3,7 +3,7 @@
     "ticket_id": "T001",
     "subject": "Can't access account",
     "body": "I'm unable to log in even after resetting my password.",
-    "lang": "no",
+    "lang": "en",
     "channel": "email",
     "timestamp": "2025-04-01T09:00:00Z",
     "cluster_id": 0,
