@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+data/*.json
+!data/sample_*.json
+tests/
+.git/
