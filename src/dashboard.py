@@ -1,8 +1,39 @@
-import json
 import streamlit as st
 import pandas as pd
+import json
 from pathlib import Path
+import hashlib
+from dotenv import load_dotenv
+import os
 
+# Load .env credentials
+load_dotenv()
+VALID_USERNAME = os.getenv("DASHBOARD_USERNAME")
+VALID_PASSWORD = os.getenv("DASHBOARD_PASSWORD")
+
+# Auth function
+def check_password():
+    if "auth" not in st.session_state:
+        st.session_state.auth = False
+
+    if st.session_state.auth:
+        return True
+
+    username = st.text_input("Username")
+    password = st.text_input("Password", type="password")
+
+    if st.button("Login"):
+        if username == VALID_USERNAME and password == VALID_PASSWORD:
+            st.session_state.auth = True
+        else:
+            st.error("Invalid credentials")
+    return False
+
+# Enforce login
+if not check_password():
+    st.stop()
+
+# -------- DASHBOARD LOGIC -------- #
 st.set_page_config(page_title="Urgency Dashboard", layout="wide")
 
 st.title("🚨 AI Support Triage Dashboard")
