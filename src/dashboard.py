@@ -9,7 +9,10 @@ import os
 # Load .env credentials
 load_dotenv()
 VALID_USERNAME = os.getenv("DASHBOARD_USERNAME")
-VALID_PASSWORD = os.getenv("DASHBOARD_PASSWORD")
+VALID_PASSWORD_HASH = os.getenv("DASHBOARD_PASSWORD_HASH")
+
+def hash_password(pwd):
+    return hashlib.sha256(pwd.encode()).hexdigest()
 
 # Auth function
 def check_password():
@@ -23,7 +26,7 @@ def check_password():
     password = st.text_input("Password", type="password")
 
     if st.button("Login"):
-        if username == VALID_USERNAME and password == VALID_PASSWORD:
+        if username == VALID_USERNAME and hash_password(password) == VALID_PASSWORD_HASH:
             st.session_state.auth = True
         else:
             st.error("Invalid credentials")
