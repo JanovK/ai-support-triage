@@ -7,6 +7,9 @@ This platform leverages modern **Natural Language Processing (NLP)** and **MLOps
 
 > 🔗 **Live demo** (secured dashboard): [ai-support-triage.streamlit.app](https://ai-support-triage.streamlit.app)
 
+> **Username**: `admin`  
+> **Password**: `uTdY1qw^HRCXx0MW`
+
 ---
 
 ## 🚀 Project Objective
