@@ -141,16 +141,6 @@ Includes tests for:
 - Urgency scoring
 - Full pipeline integration
 
----
-
-## 📅 Capstone Roadmap (Recap)
-
-| Week | Deliverables |
-|------|--------------|
-| ✅ Week 1 | SRS + skills audit |
-| ✅ Week 2 | Ingestion + PII masking |
-| ✅ Week 3 | Clustering + scoring |
-| ✅ Week 4 | Dashboard + deploy + test coverage + Docker |
 
 ---
 
