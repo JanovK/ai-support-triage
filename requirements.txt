@@ -8,6 +8,7 @@ hdbscan==0.8.33
 # Backend & API
 fastapi==0.110.0
 uvicorn[standard]==0.27.1
+fastapi[all]==0.110.0
 
 # Dashboard & Visualization
 streamlit==1.32.2
