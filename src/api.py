@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from src.mask_pii import mask_text
-from src.urgency_score import hybrid_urgency_score
+from mask_pii import mask_text
+from urgency_score import hybrid_urgency_score
 from sentence_transformers import SentenceTransformer
 import hdbscan
 
