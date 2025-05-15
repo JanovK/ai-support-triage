@@ -15,9 +15,9 @@ This platform leverages modern **Natural Language Processing (NLP)** and **MLOps
 ## 🚀 Project Objective
 
 Modern support operations face three key challenges:
-- Overwhelming ticket **volume** (email, chat, voice-to-text)
-- Growing **velocity** of multichannel customer queries
-- **Vulnerability** due to unmasked PII and inconsistent triage
+1. **Volume** — overwhelming numbers of tickets (email, chat, voice‑to‑text)
+2. **Velocity** — growing speed and diversity of multichannel queries
+3. **Vulnerability** — unmasked PII and inconsistent triage
 
 **AI Support Triage** provides an intelligent mechanism to:
 - 🔒 **Automatic PII masking**
@@ -31,18 +31,72 @@ Modern support operations face three key challenges:
 
 ### 🔧 Core Modules
 
-| Module                | Tech Stack                               | Description |
-|----------------------|-------------------------------------------|-------------|
-| Ingestion            | `FastAPI`, `asyncio`, `YAML`              | Load ticket streams from various formats |
-| PII Masking          | `spaCy`, `regex`, `langdetect`           | Detect and redact sensitive data in text |
-| Topic Clustering     | `sentence-transformers`, `HDBSCAN`        | Group requests by latent semantic themes |
-| Urgency Scoring      | `transformers`, `custom rules`            | Identify tickets that need urgent action |
-| Prioritization       | PPO-based engine (planned)                | Sort queue to minimize MTTR |
-| Explainability       | `SHAP`, `LIME`, attention visualization   | Transparent, auditable decision-making |
-| Dashboard            | `Streamlit`, `pandas`, `SHA256 login`        | View and filter tickets securely |
-| Pipeline             | `run_pipeline.py`                            | Full E2E flow from ingest to scoring |
-| CI/CD                | GitHub Actions                               | Auto-test and build validation |
-| Docker               | `python:3.10-slim`                           | Portable, production-ready image |
+| Module                | Tech                 | Description                              |
+|-----------------------|----------------------|------------------------------------------|
+| Ingestion             | Python scripts       | Load JSON/CSV tickets via CLI           |
+| PII Masking           | `spaCy`, `regex`     | Redact email, name, phone, address, etc. |
+| Topic Clustering      | `sentence-transformers`, `HDBSCAN` | Cluster by intent         |
+| Urgency Scoring       | `transformers`, rules| Sentiment + rule-based severity score    |
+| API Service           | `FastAPI`, `Uvicorn` | Expose `/analyze-ticket` endpoint        |
+| Dashboard             | `Streamlit`          | Filters, metrics, SHA256‑auth login      |
+| Pipeline              | `run_pipeline.py`    | ingest → mask → cluster → score → save   |
+| CI/CD                 | GitHub Actions       | Automated tests & build                  |
+| Containerization      | `Docker`, `docker-compose` | API & dashboard services      |
+
+---
+
+### 📡 REST API
+
+### Endpoints
+
+#### `GET /health`
+
+Returns:
+
+```json
+{ "status": "ok" }
+```
+
+#### `POST /analyze-ticket`
+
+**Headers**
+
+```
+Authorization: Bearer <API_KEY>
+Content-Type: application/json
+```
+
+**Body**
+
+```json
+{
+  "subject": "Your ticket subject",
+  "body": "Your ticket body",
+  "lang": "en"
+}
+```
+
+**Response**
+
+```json
+{
+  "urgency_score": 0.75,
+  "urgency_reason": {
+    "sentiment": "NEGATIVE",
+    "confidence": 0.99,
+    "rules_score": 0.7
+  },
+  "cluster_id": -1
+}
+```
+
+#### Local launch
+
+```bash
+uvicorn src.api:app --reload --host 0.0.0.0 --port 8000
+```
+
+Swagger UI: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
@@ -103,14 +157,45 @@ DASHBOARD_PASSWORD_HASH=<SHA256_HASH>
 
 ---
 
-## 🐳 Docker (Optional)
+### 🐳 Docker / Docker‑Compose (optional)
 
-```bash
-docker build -t ai-support-triage .
-docker run -p 8501:8501 ai-support-triage
-```
+1. **Build image**
 
-> Automatically runs the Streamlit dashboard
+   ```bash
+   docker build -t ai-support-triage .
+   ```
+
+2. **Run**
+
+   * API only
+
+     ```bash
+     docker run -p 8000:8000 --env API_KEY=$API_KEY ai-support-triage
+     ```
+
+   * Dashboard
+
+     ```bash
+     docker run -p 8501:8501 --env API_KEY=$API_KEY ai-support-triage streamlit run src/dashboard.py
+     ```
+
+3. **Compose**
+
+   Create `.env`:
+
+   ```env
+   API_KEY=0123456789abcdef0123456789abcdef
+   ```
+
+   Launch both services:
+
+   ```bash
+   docker-compose up --build
+   ```
+
+   * API → [http://localhost:8000/docs](http://localhost:8000/docs)
+   * Dashboard → [http://localhost:8501](http://localhost:8501)
+
 
 ---
 
@@ -135,12 +220,7 @@ DASHBOARD_PASSWORD_HASH = "<SHA256_HASH>"
 PYTHONPATH=src pytest tests/
 ```
 
-Includes tests for:
-- PII masking
-- Clustering
-- Urgency scoring
-- Full pipeline integration
-
+*Includes unit & functional tests for PII masking, clustering, urgency scoring and full‑pipeline integration.*
 
 ---
 
@@ -156,4 +236,4 @@ NLP & Cloud Architecture Enthusiast
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the LICENSE file for details.
+MIT — see the [LICENSE](LICENSE) file for details.
