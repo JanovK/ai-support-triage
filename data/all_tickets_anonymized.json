@@ -1,0 +1,1602 @@
+[
+  {
+    "ticket_id": "T001",
+    "subject": "Wrong item received",
+    "body": "Hello, my name is [PERSON_REDACTED]. I ordered a red jacket but got a blue sweater. Can you help?",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-12T09:35:00Z"
+  },
+  {
+    "ticket_id": "T002",
+    "subject": "Refund not processed",
+    "body": "I returned the shoes on [DATE_REDACTED] but haven’t seen the refund on my VISA ending in [DATE_REDACTED].",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-12T10:10:00Z"
+  },
+  {
+    "ticket_id": "T003",
+    "subject": "Password reset not working",
+    "body": "Hi, this is [PERSON_REDACTED]. I tried resetting my password but the link just leads to an error page.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-12T10:42:00Z"
+  },
+  {
+    "ticket_id": "T004",
+    "subject": "Tracking number invalid",
+    "body": "The number you sent (1Z2045E1234567890) shows no updates since [DATE_REDACTED]. Where’s my order?",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-12T11:30:00Z"
+  },
+  {
+    "ticket_id": "T005",
+    "subject": "[ORG_REDACTED] placed by mistake",
+    "body": "I accidentally confirmed an order to [DATE_REDACTED] Maple Street, [GPE_REDACTED]. Can I cancel it?",
+    "lang": "en",
+    "channel": "mobile",
+    "timestamp": "2025-04-12T12:05:00Z"
+  },
+  {
+    "ticket_id": "T006",
+    "subject": "Billing issue – double charged",
+    "body": "Hi, I was charged twice on [DATE_REDACTED]. The transaction IDs are [DATE_REDACTED] and 9834-222. Please fix.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-12T13:14:00Z"
+  },
+  {
+    "ticket_id": "T007",
+    "subject": "Unable to log in – urgent",
+    "body": "Hi, this is [LOC_REDACTED]. My account ([EMAIL_REDACTED]) says suspended. I need access now.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-12T14:30:00Z"
+  },
+  {
+    "ticket_id": "T008",
+    "subject": "[PERSON_REDACTED] crashes on checkout",
+    "body": "Every time I reach the payment screen on the mobile app, it crashes instantly. I'm using iOS 17.",
+    "lang": "en",
+    "channel": "mobile",
+    "timestamp": "2025-04-12T15:05:00Z"
+  },
+  {
+    "ticket_id": "T009",
+    "subject": "Need invoice for business purchase",
+    "body": "Can you send the invoice for order #456789 to [EMAIL_REDACTED]?",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-12T15:45:00Z"
+  },
+  {
+    "ticket_id": "T010",
+    "subject": "Privacy concern",
+    "body": "My account shows an address I’ve never used: 33 King Street, [GPE_REDACTED]. Is my account compromised?",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-12T16:10:00Z"
+  },
+  {
+    "ticket_id": "T011",
+    "subject": "[ORG_REDACTED] confirmation not received",
+    "body": "Hi, I placed an order [DATE_REDACTED] under the name [PERSON_REDACTED] ([EMAIL_REDACTED]) but haven't received any confirmation yet.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-25T09:15:00Z"
+  },
+  {
+    "ticket_id": "T012",
+    "subject": "Billing address error",
+    "body": "My invoice shows the wrong billing address. It should be 21 Queen Street, [GPE_REDACTED]. Can you correct this for [PERSON_REDACTED]?",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-25T10:40:00Z"
+  },
+  {
+    "ticket_id": "T013",
+    "subject": "Payment declined with [ORG_REDACTED]",
+    "body": "The checkout page keeps rejecting my [ORG_REDACTED] card ending in [DATE_REDACTED]. My phone number is +[PHONE_REDACTED] if you need to reach me.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-25T11:30:00Z"
+  },
+  {
+    "ticket_id": "T014",
+    "subject": "Product arrived damaged",
+    "body": "Hi, I'm [PERSON_REDACTED] and I received a broken ceramic vase in order #775342. Here's a photo: [ORG_REDACTED]",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-25T12:05:00Z"
+  },
+  {
+    "ticket_id": "T015",
+    "subject": "Can't reset my password",
+    "body": "I tried resetting my password twice but never got the email. My username is sarah_92 and I registered with [EMAIL_REDACTED].",
+    "lang": "en",
+    "channel": "mobile",
+    "timestamp": "2025-04-25T13:20:00Z"
+  },
+  {
+    "ticket_id": "T016",
+    "subject": "Refund request – duplicate charge",
+    "body": "I was charged twice for order 982373 made under [PERSON_REDACTED]. Please refund the second $49.99 transaction to my [ORG_REDACTED].",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-25T14:00:00Z"
+  },
+  {
+    "ticket_id": "T017",
+    "subject": "[ORG_REDACTED] shipped to wrong address",
+    "body": "The package went to my old address at 98 rue de Lille, [GPE_REDACTED]. I updated it [DATE_REDACTED] to 12 avenue [PERSON_REDACTED], but it didn't apply.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-25T14:50:00Z"
+  },
+  {
+    "ticket_id": "T018",
+    "subject": "Security alert: account hacked",
+    "body": "Hello, I think someone accessed my account without permission. I got an email that someone changed the password from a [GPE_REDACTED] IP.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-25T15:30:00Z"
+  },
+  {
+    "ticket_id": "T019",
+    "subject": "Tracking number invalid",
+    "body": "The tracking number 1Z98765W is not recognized by UPS. I placed the order using the name [PERSON_REDACTED].",
+    "lang": "en",
+    "channel": "mobile",
+    "timestamp": "2025-04-25T16:10:00Z"
+  },
+  {
+    "ticket_id": "T020",
+    "subject": "Can't apply discount code",
+    "body": "Tried using promo code SPRING25 but it says expired. I'm a regular customer (registered under [EMAIL_REDACTED]).",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-25T17:00:00Z"
+  },
+  {
+    "ticket_id": "T021",
+    "subject": "[ORG_REDACTED] never arrived – need help ASAP",
+    "body": "Hi, I'm [PERSON_REDACTED]. I placed an order (#78321) on [DATE_REDACTED], but it still hasn't been delivered. My address is 45 [GPE_REDACTED], [GPE_REDACTED]. Can you check?",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-15T09:12:00Z"
+  },
+  {
+    "ticket_id": "T022",
+    "subject": "Refund for duplicate charge",
+    "body": "Hello, I noticed I've been charged twice for the same item. My bank account ending in [DATE_REDACTED] shows two debits. Please refund the extra. Email: [EMAIL_REDACTED]",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-16T14:32:00Z"
+  },
+  {
+    "ticket_id": "T023",
+    "subject": "Incorrect item received",
+    "body": "This is [PERSON_REDACTED]. I ordered a blue Bluetooth speaker but received a green one instead. Phone: ([PHONE_REDACTED]. I'd like a replacement [ORG_REDACTED].",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-17T10:05:00Z"
+  },
+  {
+    "ticket_id": "T024",
+    "subject": "Can't reset password",
+    "body": "Whenever I try the reset link, it says 'token expired'. I'm [PERSON_REDACTED], using the email [EMAIL_REDACTED]. Please assist.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-18T08:45:00Z"
+  },
+  {
+    "ticket_id": "T025",
+    "subject": "Damaged product on arrival",
+    "body": "My order was delivered [DATE_REDACTED], but the coffee machine is cracked. I can send a picture if needed. The tracking number was UPS-3482981. Thanks.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-18T13:20:00Z"
+  },
+  {
+    "ticket_id": "T026",
+    "subject": "Account hacked – urgent",
+    "body": "Hello support, someone accessed my account and changed the shipping address to 12B Pinecrest Ave, [GPE_REDACTED]. I didn’t authorize this. Please secure my account.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-18T17:50:00Z"
+  },
+  {
+    "ticket_id": "T027",
+    "subject": "Late delivery – tracking shows stuck",
+    "body": "[ORG_REDACTED] has been 'in transit' for [DATE_REDACTED]. The tracking hasn't updated since [DATE_REDACTED]. Can you escalate this? – [PERSON_REDACTED]",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-19T11:00:00Z"
+  },
+  {
+    "ticket_id": "T028",
+    "subject": "Cancel subscription",
+    "body": "Hi, I want to cancel my auto-renewal subscription for the gourmet box. My account is under [EMAIL_REDACTED].",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-20T09:00:00Z"
+  },
+  {
+    "ticket_id": "T029",
+    "subject": "Error in checkout process",
+    "body": "I’m trying to place an order, but your payment page crashes after entering card details. Please fix.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-20T15:10:00Z"
+  },
+  {
+    "ticket_id": "T030",
+    "subject": "Need invoice with company name",
+    "body": "Can you issue an invoice addressed to '[ORG_REDACTED] for order #67329? It’s for reimbursement.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-21T07:20:00Z"
+  },
+  {
+    "ticket_id": "T031",
+    "subject": "[ORG_REDACTED] delivered to wrong address",
+    "body": "Hello, I received confirmation that my package was delivered, but it’s not at 117 Grandview Ave, [GPE_REDACTED] — that’s my actual address. Can you investigate?",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-21T14:15:00Z"
+  },
+  {
+    "ticket_id": "T032",
+    "subject": "Still waiting on refund",
+    "body": "This is [PERSON_REDACTED], following up on the refund for order #77654. It was approved [DATE_REDACTED] but not yet visible on my [ORG_REDACTED] account ending in [DATE_REDACTED].",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-21T15:42:00Z"
+  },
+  {
+    "ticket_id": "T033",
+    "subject": "Subscription cancelled without my consent",
+    "body": "Hey, I didn’t cancel my premium subscription. My email is [EMAIL_REDACTED]. Can you restore it?",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-21T18:22:00Z"
+  },
+  {
+    "ticket_id": "T034",
+    "subject": "Gift card not received",
+    "body": "Hi, I bought a $50 gift card for my sister at [EMAIL_REDACTED] but she never got the email. Please resend or refund.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-22T09:30:00Z"
+  },
+  {
+    "ticket_id": "T035",
+    "subject": "Can't update shipping info",
+    "body": "The site gives an error when I try to update my shipping address to 888 Rue Saint-Denis, [GPE_REDACTED]. Please fix ASAP.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-22T11:00:00Z"
+  },
+  {
+    "ticket_id": "T036",
+    "subject": "Wrong currency charged",
+    "body": "I selected CAD but was billed in USD. Name: [PERSON_REDACTED], order #234879. Can this be corrected?",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-22T12:40:00Z"
+  },
+  {
+    "ticket_id": "T037",
+    "subject": "Payment failed multiple times",
+    "body": "I tried paying with my [ORG_REDACTED] ending in [DATE_REDACTED] and [GPE_REDACTED] ending in [DATE_REDACTED], both failed. I don’t understand why.",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-22T14:25:00Z"
+  },
+  {
+    "ticket_id": "T038",
+    "subject": "Received used item instead of new",
+    "body": "The shoes I ordered came dirty and obviously used. I ordered new. Very disappointed. Invoice was in the name '[ORG_REDACTED] LTD'.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-23T09:10:00Z"
+  },
+  {
+    "ticket_id": "T039",
+    "subject": "Bug in promo code system",
+    "body": "Code SPRING25 says 'invalid' even though it's on your homepage. Tested on [PERSON_REDACTED] and [PERSON_REDACTED].",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-23T10:45:00Z"
+  },
+  {
+    "ticket_id": "T040",
+    "subject": "Account locked after failed logins",
+    "body": "Too many failed attempts and now my account is locked. Username: cynthia89. Please unlock it. Email: [EMAIL_REDACTED]",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-23T11:20:00Z"
+  },
+  {
+    "ticket_id": "T041",
+    "subject": "URGENT: Package marked as delivered but stolen",
+    "body": "My parcel was marked as delivered at 6:15 PM but it’s not on my porch. I live at 39 Lakeview Dr, [PERSON_REDACTED]. I need this for surgery recovery. Please escalate.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-23T18:20:00Z"
+  },
+  {
+    "ticket_id": "T042",
+    "subject": "[PERSON_REDACTED] charged but order not showing in account",
+    "body": "Hi, my VISA ending in [DATE_REDACTED] was charged $87.50, but there’s no order listed. My account is registered under [EMAIL_REDACTED].",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-24T08:45:00Z"
+  },
+  {
+    "ticket_id": "T043",
+    "subject": "Security alert – login from unknown device",
+    "body": "I received a notification of a login from [GPE_REDACTED]. I’m in [GPE_REDACTED]. Please block any access and reset my account. Name: [PERSON_REDACTED]",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-24T09:00:00Z"
+  },
+  {
+    "ticket_id": "T044",
+    "subject": "Cannot access order history – dashboard broken",
+    "body": "My orders page is blank since [DATE_REDACTED]. Tried Firefox and [ORG_REDACTED]. Account linked to [EMAIL_REDACTED]. Please help.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-24T10:15:00Z"
+  },
+  {
+    "ticket_id": "T045",
+    "subject": "Medical device delayed – critical timing",
+    "body": "I ordered a glucose meter for my father and it’s still in transit after [DATE_REDACTED]. Tracking: FedEx-00344381. This is medically urgent.",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-24T12:40:00Z"
+  },
+  {
+    "ticket_id": "T046",
+    "subject": "Wrong item auto-shipped – I never ordered this",
+    "body": "An espresso machine I never ordered was charged and sent to 5005 Côte-des-Neiges, [GPE_REDACTED]. I suspect fraud.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-24T14:10:00Z"
+  },
+  {
+    "ticket_id": "T047",
+    "subject": "Account deactivated – urgent reactivation needed",
+    "body": "My VIP business account was suddenly disabled. We rely on this for team purchasing. User: [EMAIL_REDACTED]",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-24T15:35:00Z"
+  },
+  {
+    "ticket_id": "T048",
+    "subject": "Gift order sent to wrong person",
+    "body": "The anniversary gift meant for my partner went to my ex by mistake – please recall this ASAP. Name on account: [PERSON_REDACTED]",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-24T16:05:00Z"
+  },
+  {
+    "ticket_id": "T049",
+    "subject": "Delivery driver threatened me",
+    "body": "I had a disturbing interaction with the courier delivering my order. Please escalate this incident and remove the driver from my route.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-24T17:25:00Z"
+  },
+  {
+    "ticket_id": "T050",
+    "subject": "Credit card fraud following recent order",
+    "body": "[DATE_REDACTED] after placing an order, my card ending in [DATE_REDACTED] was used for unauthorized transactions. This may be a leak on your side.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-24T18:40:00Z"
+  },
+  {
+    "ticket_id": "T051",
+    "subject": "Tracking page shows ‘delivered’ but nothing received",
+    "body": "[ORG_REDACTED] #90213 shows delivered [DATE_REDACTED] at 3:20 PM. I was home [DATE_REDACTED]. Name: [PERSON_REDACTED], 119 Queen Street E, [GPE_REDACTED]. Please investigate.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-25T09:05:00Z"
+  },
+  {
+    "ticket_id": "T052",
+    "subject": "Can’t access invoice history",
+    "body": "Hi, I need invoices from [DATE_REDACTED] for accounting. My account is registered with [EMAIL_REDACTED]. Please send them as [ORG_REDACTED].",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-25T09:42:00Z"
+  },
+  {
+    "ticket_id": "T053",
+    "subject": "Refund issued to wrong card",
+    "body": "The $34 refund for the yoga mat went to my old [GPE_REDACTED] ending in [DATE_REDACTED]. It should’ve gone to [DATE_REDACTED]. Can you fix that?",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-25T10:30:00Z"
+  },
+  {
+    "ticket_id": "T054",
+    "subject": "Paid twice via [ORG_REDACTED]",
+    "body": "Payment page glitched and [ORG_REDACTED] was charged twice. Total should be $61.88. My [ORG_REDACTED] ID is linked to [EMAIL_REDACTED].",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-25T11:00:00Z"
+  },
+  {
+    "ticket_id": "T055",
+    "subject": "Wrong item in mystery box",
+    "body": "Hello, I received a men’s fragrance but I ordered the women’s. My shipping address is 2136 [PERSON_REDACTED], [GPE_REDACTED]. [ORG_REDACTED] [DATE_REDACTED].",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-25T12:10:00Z"
+  },
+  {
+    "ticket_id": "T056",
+    "subject": "[ORG_REDACTED] marked as returned – I never returned it",
+    "body": "My package was marked returned to sender on [DATE_REDACTED]. That’s an error. I was expecting it. Name on order: Arnaud Petit",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-25T13:30:00Z"
+  },
+  {
+    "ticket_id": "T057",
+    "subject": "Dispute a late delivery charge",
+    "body": "Hi, I was charged $5 late delivery fee but the delay was on your side. My phone is[PHONE_REDACTED] in case you need to call.",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-25T14:15:00Z"
+  },
+  {
+    "ticket_id": "T058",
+    "subject": "Coupon code rejected at checkout",
+    "body": "The SPRING10 promo says valid until [DATE_REDACTED], but I get ‘invalid code’. I’m using [PERSON_REDACTED] on Windows.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-25T15:00:00Z"
+  },
+  {
+    "ticket_id": "T059",
+    "subject": "Need invoice under different name",
+    "body": "Can you resend the invoice for order #100231 under ‘[ORG_REDACTED]’ instead of my name?",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-25T15:45:00Z"
+  },
+  {
+    "ticket_id": "T060",
+    "subject": "Account auto-logged out during purchase",
+    "body": "I was kicked out of my session during checkout and had to re-enter everything. Very frustrating. Username: daniel.montrealer",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-25T16:10:00Z"
+  },
+  {
+    "ticket_id": "T061",
+    "subject": "[ORG_REDACTED]",
+    "body": "Bonjour, [PERSON_REDACTED] notification [PERSON_REDACTED], [PERSON_REDACTED] [ORG_REDACTED] boîte aux lettres. Nom : [PERSON_REDACTED], adresse : 15 [ORG_REDACTED], [ORG_REDACTED].",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-26T08:10:00Z"
+  },
+  {
+    "ticket_id": "T062",
+    "subject": "No puedo cambiar la dirección de envío",
+    "body": "Hola, intento actualizar mi dirección a Av. Las Palmas 123, [GPE_REDACTED], pero la web da error. ¿[GPE_REDACTED] ayudarme? Mi correo: [EMAIL_REDACTED]",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-04-26T09:15:00Z"
+  },
+  {
+    "ticket_id": "T063",
+    "subject": "[GPE_REDACTED] richiesta con partita [ORG_REDACTED]",
+    "body": "Salve, potete [ORG_REDACTED] per l’ordine [DATE_REDACTED] intestata a [ORG_REDACTED] S.R.L.? [PERSON_REDACTED].",
+    "lang": "it",
+    "channel": "chat",
+    "timestamp": "2025-04-26T10:40:00Z"
+  },
+  {
+    "ticket_id": "T064",
+    "subject": "Ich habe ein beschädigtes [ORG_REDACTED] erhalten",
+    "body": "[GPE_REDACTED] ist kaputt angekommen. Ich habe [PERSON_REDACTED]. [PERSON_REDACTED]: Sonnenallee [DATE_REDACTED], [GPE_REDACTED].",
+    "lang": "de",
+    "channel": "email",
+    "timestamp": "2025-04-26T11:55:00Z"
+  },
+  {
+    "ticket_id": "T065",
+    "subject": "[PERSON_REDACTED]",
+    "body": "J’ai été facturé deux fois pour le même article. [ORG_REDACTED] terminant par 3382. [PERSON_REDACTED] corriger.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-26T13:00:00Z"
+  },
+  {
+    "ticket_id": "T066",
+    "subject": "Problema com o pagamento via boleto",
+    "body": "Oi, paguei via boleto na sexta, mas o pedido ainda aparece [ORG_REDACTED] 'não pago'. Email: [EMAIL_REDACTED]",
+    "lang": "pt",
+    "channel": "web",
+    "timestamp": "2025-04-26T13:40:00Z"
+  },
+  {
+    "ticket_id": "T067",
+    "subject": "Missed my delivery – can I reschedule?",
+    "body": "I was not home when they tried to deliver my parcel. Can I get it [DATE_REDACTED]? Name: [PERSON_REDACTED], phone: [PHONE_REDACTED]",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-26T14:20:00Z"
+  },
+  {
+    "ticket_id": "T068",
+    "subject": "Mi paquete llegó incompleto",
+    "body": "[ORG_REDACTED] dos productos en mi pedido #28773. Solo [ORG_REDACTED]. ¿Y el pantalón? [PERSON_REDACTED]: [PERSON_REDACTED] 211, [PERSON_REDACTED].",
+    "lang": "es",
+    "channel": "email",
+    "timestamp": "2025-04-26T15:05:00Z"
+  },
+  {
+    "ticket_id": "T069",
+    "subject": "Problema con l'accesso all’account",
+    "body": "Non riesco ad accedere [PERSON_REDACTED] account. Username: marco_torino. Ho provato a reimpostare la password.",
+    "lang": "it",
+    "channel": "web",
+    "timestamp": "2025-04-26T16:00:00Z"
+  },
+  {
+    "ticket_id": "T070",
+    "subject": "[PERSON_REDACTED] manquant [ORG_REDACTED]",
+    "body": "Bonjour, j’ai commandé une clé [ORG_REDACTED] avec des fichiers préchargés, [PERSON_REDACTED] vide. Commande #80192. [PERSON_REDACTED] enseignant, c’est urgent.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-26T17:20:00Z"
+  },
+  {
+    "ticket_id": "T071",
+    "subject": "Retour produit non pris en compte",
+    "body": "Bonjour, j’ai retourné le colis via Colissimo le [DATE_REDACTED]. Mon numéro de suivi est 8K19822844. Toujours aucun remboursement. Nom : [PERSON_REDACTED].",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-27T08:35:00Z"
+  },
+  {
+    "ticket_id": "T072",
+    "subject": "Problema al ingresar a mi cuenta",
+    "body": "[ORG_REDACTED] iniciar sesión pero dice que mi contraseña es incorrecta. [PERSON_REDACTED]. Usuario: claudia_lpz.",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-04-27T09:10:00Z"
+  },
+  {
+    "ticket_id": "T073",
+    "subject": "[ORG_REDACTED] erhalten",
+    "body": "Ich habe [PERSON_REDACTED] bestellt, aber [PERSON_REDACTED] erhalten. Bitte senden Sie mir die richtige [PERSON_REDACTED].",
+    "lang": "de",
+    "channel": "email",
+    "timestamp": "2025-04-27T10:00:00Z"
+  },
+  {
+    "ticket_id": "T074",
+    "subject": "Paiement refusé sans raison",
+    "body": "[PERSON_REDACTED] finaliser l’achat, même après avoir changé de carte ([ORG_REDACTED] terminant par 9901). Adresse mail : [EMAIL_REDACTED]",
+    "lang": "fr",
+    "channel": "web",
+    "timestamp": "2025-04-27T10:55:00Z"
+  },
+  {
+    "ticket_id": "T075",
+    "subject": "[GPE_REDACTED] confirmado, mas pedido não aparece",
+    "body": "Olá, paguei com PIX e já foi debitado, mas minha [PERSON_REDACTED] mostra o pedido como pendente. Email: [EMAIL_REDACTED]",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-04-27T11:40:00Z"
+  },
+  {
+    "ticket_id": "T076",
+    "subject": "Problem with gift card balance",
+    "body": "Hi, I entered a $100 gift card but only $40 was applied to my order. The card number ends with [DATE_REDACTED]. Can you check?",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-27T12:25:00Z"
+  },
+  {
+    "ticket_id": "T077",
+    "subject": "El repartidor dejó [GPE_REDACTED] en la calle",
+    "body": "Mi paquete fue dejado fuera [GPE_REDACTED] sin avisarme. Vivo en [PERSON_REDACTED] 88, [GPE_REDACTED]. No estaba en casa.",
+    "lang": "es",
+    "channel": "chat",
+    "timestamp": "2025-04-27T13:05:00Z"
+  },
+  {
+    "ticket_id": "T078",
+    "subject": "[PERSON_REDACTED] duplicado",
+    "body": "[PERSON_REDACTED] uma compra, mas o [ORG_REDACTED] pedidos iguais. Só queria um. Nome: [PERSON_REDACTED], conta: [EMAIL_REDACTED]",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-04-27T13:40:00Z"
+  },
+  {
+    "ticket_id": "T079",
+    "subject": "[GPE_REDACTED] richiesta in formato elettronico",
+    "body": "Potete inviare la fattura dell’ordine #88913 in formato [PERSON_REDACTED] per il sistema SDI italiano? [PERSON_REDACTED].",
+    "lang": "it",
+    "channel": "email",
+    "timestamp": "2025-04-27T14:15:00Z"
+  },
+  {
+    "ticket_id": "T080",
+    "subject": "Cannot complete payment – error 503",
+    "body": "Tried three times to complete my order. Every time the site crashes with error 503 after entering card info. Device: [ORG_REDACTED] 13, browser: Chrome.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-27T15:05:00Z"
+  },
+  {
+    "ticket_id": "T081",
+    "subject": "Commande bloquée en douane",
+    "body": "Ma commande #99321 est bloquée à [PERSON_REDACTED] depuis 4 jours. Le numéro de suivi [ORG_REDACTED] est[PHONE_REDACTED]. C’est [ORG_REDACTED] cadeau, merci de débloquer la situation.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-28T08:15:00Z"
+  },
+  {
+    "ticket_id": "T082",
+    "subject": "Problema com entrega – endereço incompleto",
+    "body": "O pedido foi enviado apenas com meu nome, sem rua. Endereço completo: [PERSON_REDACTED], [PERSON_REDACTED]. Nome: [PERSON_REDACTED]",
+    "lang": "pt",
+    "channel": "chat",
+    "timestamp": "2025-04-28T09:00:00Z"
+  },
+  {
+    "ticket_id": "T083",
+    "subject": "Login schlägt fehl trotz korrektem Passwort",
+    "body": "Ich kann [PERSON_REDACTED] einloggen. Passwort [PERSON_REDACTED]. Benutzername: tom.keller",
+    "lang": "de",
+    "channel": "web",
+    "timestamp": "2025-04-28T09:45:00Z"
+  },
+  {
+    "ticket_id": "T084",
+    "subject": "Problema al aplicar [GPE_REDACTED]",
+    "body": "Mi código de estudiante ‘UNIV20’ no se aplica en [GPE_REDACTED]. [PERSON_REDACTED] pantalla disponible si necesitan.",
+    "lang": "es",
+    "channel": "email",
+    "timestamp": "2025-04-28T10:10:00Z"
+  },
+  {
+    "ticket_id": "T085",
+    "subject": "Données personnelles exposées dans le colis",
+    "body": "[PERSON_REDACTED] complet : 06 89 12 34 55. C’est une [PERSON_REDACTED].",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-28T11:00:00Z"
+  },
+  {
+    "ticket_id": "T086",
+    "subject": "Can't apply store credit at checkout",
+    "body": "My account has $20 in credit but I can’t use it on my current cart. Email: [EMAIL_REDACTED]",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-28T11:40:00Z"
+  },
+  {
+    "ticket_id": "T087",
+    "subject": "[GPE_REDACTED] perso dal corriere",
+    "body": "Il pacco risultava in consegna il 25 aprile ma non è mai arrivato. Tracking SDA 99387123. [PERSON_REDACTED]: [PERSON_REDACTED], [ORG_REDACTED].",
+    "lang": "it",
+    "channel": "email",
+    "timestamp": "2025-04-28T12:20:00Z"
+  },
+  {
+    "ticket_id": "T088",
+    "subject": "[PERSON_REDACTED] le service client",
+    "body": "Le chat en ligne reste bloqué sur 'chargement'. Aucun conseiller ne répond. C’est très frustrant.",
+    "lang": "fr",
+    "channel": "web",
+    "timestamp": "2025-04-28T13:10:00Z"
+  },
+  {
+    "ticket_id": "T089",
+    "subject": "Error 403 ao acessar [PERSON_REDACTED]",
+    "body": "Recebo erro 403 ao tentar ver pedidos anteriores no site. Navegador: Firefox. Email: [EMAIL_REDACTED]",
+    "lang": "pt",
+    "channel": "web",
+    "timestamp": "2025-04-28T14:00:00Z"
+  },
+  {
+    "ticket_id": "T090",
+    "subject": "[PERSON_REDACTED] crash during payment",
+    "body": "Tried paying via app. After entering card (ends in [DATE_REDACTED]), the app crashed. Using iOS 17 on iPhone 14 Pro.",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-28T14:50:00Z"
+  },
+  {
+    "ticket_id": "T091",
+    "subject": "Article non conforme à la description",
+    "body": "J’ai commandé [ORG_REDACTED] tapis bleu (réf. 1881-B) mais j’ai reçu [ORG_REDACTED] tapis vert. Adresse : 11 avenue des Pins, [PERSON_REDACTED]. Nom : [PERSON_REDACTED].",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-29T08:05:00Z"
+  },
+  {
+    "ticket_id": "T092",
+    "subject": "Problema [PERSON_REDACTED] tarjeta internacional",
+    "body": "Intenté pagar con mi [PERSON_REDACTED] del [ORG_REDACTED] pero [PERSON_REDACTED] sin razón. Email: [EMAIL_REDACTED]",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-04-29T09:00:00Z"
+  },
+  {
+    "ticket_id": "T093",
+    "subject": "[PERSON_REDACTED] erhalten",
+    "body": "Ich möchte einen Artikel zurücksenden, aber habe kein [PERSON_REDACTED] per E-Mail erhalten. [ORG_REDACTED].",
+    "lang": "de",
+    "channel": "email",
+    "timestamp": "2025-04-29T09:55:00Z"
+  },
+  {
+    "ticket_id": "T094",
+    "subject": "Meu pedido está com status 'cancelado'",
+    "body": "[ORG_REDACTED] pedido #54891 foi [GPE_REDACTED], [PERSON_REDACTED] paguei via cartão [PERSON_REDACTED] (final 8412). Favor verificar.",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-04-29T10:30:00Z"
+  },
+  {
+    "ticket_id": "T095",
+    "subject": "[GPE_REDACTED] richiesta con codice fiscale",
+    "body": "[PERSON_REDACTED], vorrei ricevere [GPE_REDACTED] per l'ordine #88329 intestata a [PERSON_REDACTED], [ORG_REDACTED]: RSPGPP89H21H501Z",
+    "lang": "it",
+    "channel": "web",
+    "timestamp": "2025-04-29T11:10:00Z"
+  },
+  {
+    "ticket_id": "T096",
+    "subject": "[PERSON_REDACTED] freezes during checkout",
+    "body": "Every time I reach the payment step, the app becomes unresponsive. Device: Pixel [DATE_REDACTED], [ORG_REDACTED] 14.",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-04-29T11:45:00Z"
+  },
+  {
+    "ticket_id": "T097",
+    "subject": "Erreur dans [PERSON_REDACTED]",
+    "body": "Ma commande a été envoyée au 15 rue Montcalm à Bordeaux au lieu de 115 rue Montcalm. Merci de corriger.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-29T12:20:00Z"
+  },
+  {
+    "ticket_id": "T098",
+    "subject": "Pagamento feito, mas pedido sumiu",
+    "body": "Paguei com cartão (final [DATE_REDACTED]) ontem, e hoje não vejo mais o pedido na minha conta. Nome: [PERSON_REDACTED].",
+    "lang": "pt",
+    "channel": "web",
+    "timestamp": "2025-04-29T13:05:00Z"
+  },
+  {
+    "ticket_id": "T099",
+    "subject": "[PERSON_REDACTED] ne peux pas appliquer [PERSON_REDACTED] d’achat",
+    "body": "Bonjour, j’ai [PERSON_REDACTED] (réf. BON25-APRIL), [PERSON_REDACTED] est refusé à [ORG_REDACTED].",
+    "lang": "fr",
+    "channel": "web",
+    "timestamp": "2025-04-29T14:00:00Z"
+  },
+  {
+    "ticket_id": "T100",
+    "subject": "Security issue: password reset link reused",
+    "body": "I noticed the reset link in my inbox can be opened multiple times without expiring. This is a security concern.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-29T14:45:00Z"
+  },
+  {
+    "ticket_id": "T101",
+    "subject": "[PERSON_REDACTED] partielle reçue",
+    "body": "Bonjour, j’ai reçu seulement 2 articles sur les 4 commandés. Il manque le set de tasses et le plateau. Nom : [PERSON_REDACTED], commande #109332.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-30T08:10:00Z"
+  },
+  {
+    "ticket_id": "T102",
+    "subject": "Mi cuenta fue bloqueada sin razón",
+    "body": "No puedo acceder a mi cuenta. Sale el mensaje: 'usuario bloqueado por actividad sospechosa'. Correo: [EMAIL_REDACTED]",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-04-30T08:45:00Z"
+  },
+  {
+    "ticket_id": "T103",
+    "subject": "Tracking number incorrect",
+    "body": "Hi, the tracking number you sent (TNT-99277312) doesn’t match any shipment. Can you check if it's correct?",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-30T09:20:00Z"
+  },
+  {
+    "ticket_id": "T104",
+    "subject": "Artikel nicht wie beschrieben",
+    "body": "[PERSON_REDACTED] erhaltene Artikel ist [PERSON_REDACTED] als in der [PERSON_REDACTED] angegeben. Ich möchte eine [PERSON_REDACTED]. [PERSON_REDACTED]: [PERSON_REDACTED]",
+    "lang": "de",
+    "channel": "web",
+    "timestamp": "2025-04-30T09:55:00Z"
+  },
+  {
+    "ticket_id": "T105",
+    "subject": "[GPE_REDACTED] duplicado via cartão",
+    "body": "[PERSON_REDACTED] cobrado duas vezes por uma única compra no cartão final 2210. Nome: Ana [PERSON_REDACTED], pedido #88342.",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-04-30T10:30:00Z"
+  },
+  {
+    "ticket_id": "T106",
+    "subject": "[ORG_REDACTED] di assistenza urgente – ordine perso",
+    "body": "Non riesco a tracciare il [ORG_REDACTED] ordine #561203 da oltre 5 giorni. Email registrata: [EMAIL_REDACTED]",
+    "lang": "it",
+    "channel": "email",
+    "timestamp": "2025-04-30T11:00:00Z"
+  },
+  {
+    "ticket_id": "T107",
+    "subject": "Coupon code expired too early",
+    "body": "The code SPRING30 says 'expired' even though your promo says valid until [DATE_REDACTED]. Can you reactivate it?",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-30T11:30:00Z"
+  },
+  {
+    "ticket_id": "T108",
+    "subject": "Erreur dans le [ORG_REDACTED] facture",
+    "body": "La facture est au nom de 'Client Divers'. Merci de corriger avec mon vrai nom : [ORG_REDACTED].",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-30T12:05:00Z"
+  },
+  {
+    "ticket_id": "T109",
+    "subject": "Mi pedido llegó con productos rotos",
+    "body": "Los [PERSON_REDACTED] set llegaron rotos. Tengo fotos. [PERSON_REDACTED]: [PERSON_REDACTED], [ORG_REDACTED].",
+    "lang": "es",
+    "channel": "chat",
+    "timestamp": "2025-04-30T12:45:00Z"
+  },
+  {
+    "ticket_id": "T110",
+    "subject": "Problema com a nota fiscal eletrônica",
+    "body": "Olá, a NF-e da minha compra #77211 não foi enviada. Preciso dela [PERSON_REDACTED] o reembolso da empresa (CNPJ: 45.278.991/0001-90).",
+    "lang": "pt",
+    "channel": "web",
+    "timestamp": "2025-04-30T13:20:00Z"
+  },
+  {
+    "ticket_id": "T111",
+    "subject": "Commande expédiée en double",
+    "body": "Bonjour, j’ai reçu deux colis identiques pour une seule commande. Dois-je renvoyer le second ? Nom : [PERSON_REDACTED].",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-30T14:05:00Z"
+  },
+  {
+    "ticket_id": "T112",
+    "subject": "Problema con la devolución",
+    "body": "Hola, [ORG_REDACTED] hace 12 días pero aún no [GPE_REDACTED] reembolso en mi tarjeta [ORG_REDACTED] terminada en [DATE_REDACTED].",
+    "lang": "es",
+    "channel": "email",
+    "timestamp": "2025-04-30T14:45:00Z"
+  },
+  {
+    "ticket_id": "T113",
+    "subject": "Wrong item color received",
+    "body": "I ordered the black model but received a silver one. This was meant as a gift. My address is 12 [GPE_REDACTED], [GPE_REDACTED].",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-04-30T15:15:00Z"
+  },
+  {
+    "ticket_id": "T114",
+    "subject": "Problema com cadastro do [ORG_REDACTED]",
+    "body": "O site não aceita meu CPF para finalizar a compra. CPF: [DATE_REDACTED]. Poderiam verificar?",
+    "lang": "pt",
+    "channel": "chat",
+    "timestamp": "2025-04-30T15:50:00Z"
+  },
+  {
+    "ticket_id": "T115",
+    "subject": "Artikel zurückgeschickt, aber keine Rückerstattung",
+    "body": "Ich habe am 20. April den Artikel zurückgesendet. [PERSON_REDACTED] [PERSON_REDACTED] erhalten. [ORG_REDACTED]: [EMAIL_REDACTED]",
+    "lang": "de",
+    "channel": "email",
+    "timestamp": "2025-04-30T16:20:00Z"
+  },
+  {
+    "ticket_id": "T116",
+    "subject": "[GPE_REDACTED] non conforme",
+    "body": "[GPE_REDACTED] emessa non include l’IVA separata. Partita IVA: [PHONE_REDACTED]. Cliente: Eleonora Bianchi.",
+    "lang": "it",
+    "channel": "email",
+    "timestamp": "2025-04-30T16:50:00Z"
+  },
+  {
+    "ticket_id": "T117",
+    "subject": "Gift option not applied",
+    "body": "I selected 'gift wrapping' but the package arrived with price tags and no message. Recipient: [PERSON_REDACTED].",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-04-30T17:15:00Z"
+  },
+  {
+    "ticket_id": "T118",
+    "subject": "Erreur 500 à l’ajout au panier",
+    "body": "[GPE_REDACTED] je clique sur '[PERSON_REDACTED] au panier', j’ai une erreur 500. Navigateur : [PERSON_REDACTED] sur iPhone 13.",
+    "lang": "fr",
+    "channel": "web",
+    "timestamp": "2025-04-30T17:40:00Z"
+  },
+  {
+    "ticket_id": "T119",
+    "subject": "[ORG_REDACTED] para receber SMS de verificação",
+    "body": "Não recebo o código [ORG_REDACTED] no meu número [PHONE_REDACTED] para ativar a conta.",
+    "lang": "pt",
+    "channel": "chat",
+    "timestamp": "2025-04-30T18:10:00Z"
+  },
+  {
+    "ticket_id": "T120",
+    "subject": "[PERSON_REDACTED] après paiement",
+    "body": "J’ai payé avec [GPE_REDACTED] adresse enregistrée. Le colis va partir au [PERSON_REDACTED] endroit. [PERSON_REDACTED] : lucas_digital",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-04-30T18:45:00Z"
+  },
+  {
+    "ticket_id": "T121",
+    "subject": "[PERSON_REDACTED] à une ancienne adresse",
+    "body": "Mon colis a été expédié à mon ancienne adresse au 82 boulevard Haussmann, [GPE_REDACTED]. Mon compte a pourtant été mis à jour.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-01T08:10:00Z"
+  },
+  {
+    "ticket_id": "T122",
+    "subject": "No puedo aplicar [GPE_REDACTED] pedido",
+    "body": "Hola, intento usar [ORG_REDACTED] pero la web dice que [PERSON_REDACTED], aunque es mi primer pedido.",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-05-01T08:45:00Z"
+  },
+  {
+    "ticket_id": "T123",
+    "subject": "Payment succeeded but confirmation missing",
+    "body": "My credit card (ending in [DATE_REDACTED]) was charged, but I didn’t receive any confirmation. Email: [EMAIL_REDACTED]",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-05-01T09:20:00Z"
+  },
+  {
+    "ticket_id": "T124",
+    "subject": "Produto veio com defeito na tela",
+    "body": "[ORG_REDACTED] o tablet hoje e a tela está com uma rachadura visível. [ORG_REDACTED] trocar? Pedido #92138.",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-05-01T09:55:00Z"
+  },
+  {
+    "ticket_id": "T125",
+    "subject": "Zugriff auf frühere Bestellungen nicht möglich",
+    "body": "[PERSON_REDACTED] zeigt nur Daten bis März an. Ich brauche eine [PERSON_REDACTED] vom [DATE_REDACTED]. [DATE_REDACTED].",
+    "lang": "de",
+    "channel": "web",
+    "timestamp": "2025-05-01T10:30:00Z"
+  },
+  {
+    "ticket_id": "T126",
+    "subject": "Non posso scaricare la ricevuta fiscale",
+    "body": "[PERSON_REDACTED], il link per scaricare la ricevuta porta a una pagina vuota. Ordine [DATE_REDACTED].",
+    "lang": "it",
+    "channel": "web",
+    "timestamp": "2025-05-01T11:05:00Z"
+  },
+  {
+    "ticket_id": "T127",
+    "subject": "[PERSON_REDACTED] sous la pluie",
+    "body": "Bonjour, le livreur [PERSON_REDACTED] le [ORG_REDACTED] moi alors [ORG_REDACTED] pleuvait. Tout est mouillé. Nom : [PERSON_REDACTED]",
+    "lang": "fr",
+    "channel": "chat",
+    "timestamp": "2025-05-01T11:40:00Z"
+  },
+  {
+    "ticket_id": "T128",
+    "subject": "My login gets reset [DATE_REDACTED]",
+    "body": "Every time I return to the site, I have to log in again. I checked 'Remember me'. Browser: Firefox 124.0",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-05-01T12:15:00Z"
+  },
+  {
+    "ticket_id": "T129",
+    "subject": "Código de rastreamento inválido",
+    "body": "O código Correios CP2038391BR não aparece como válido no site oficial. Podem verificar?",
+    "lang": "pt",
+    "channel": "web",
+    "timestamp": "2025-05-01T12:50:00Z"
+  },
+  {
+    "ticket_id": "T130",
+    "subject": "Assistance urgente – colis volé",
+    "body": "Le colis a été déclaré livré, [PERSON_REDACTED] ne l’ai jamais reçu. Adresse : 17 rue du Maréchal Foch, [GPE_REDACTED]. Merci d’ouvrir une enquête.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-01T13:25:00Z"
+  },
+  {
+    "ticket_id": "T131",
+    "subject": "[PERSON_REDACTED] sur mon compte",
+    "body": "J’ai été facturé deux fois pour la commande #112789. Merci de vérifier [ORG_REDACTED] compte enregistré : [EMAIL_REDACTED]",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-02T08:15:00Z"
+  },
+  {
+    "ticket_id": "T132",
+    "subject": "[ORG_REDACTED] chegou incompleto",
+    "body": "Faltam 2 produtos na caixa. Recebi só a camiseta, mas não veio a calça e o boné. Nome: [PERSON_REDACTED].",
+    "lang": "pt",
+    "channel": "chat",
+    "timestamp": "2025-05-02T08:50:00Z"
+  },
+  {
+    "ticket_id": "T133",
+    "subject": "[PERSON_REDACTED] ist stark verspätet",
+    "body": "Ich habe am 24. [DATE_REDACTED] bestellt, aber noch keine [PERSON_REDACTED] erhalten. Kundenname: [PERSON_REDACTED].",
+    "lang": "de",
+    "channel": "email",
+    "timestamp": "2025-05-02T09:25:00Z"
+  },
+  {
+    "ticket_id": "T134",
+    "subject": "Can’t use [ORG_REDACTED] at checkout",
+    "body": "When I select [ORG_REDACTED], the button disappears after 2 seconds. I’m using [PERSON_REDACTED] on MacOS.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-05-02T10:00:00Z"
+  },
+  {
+    "ticket_id": "T135",
+    "subject": "Erreur d’article dans le [PERSON_REDACTED]",
+    "body": "J’ai commandé une cafetière rouge mais j’ai reçu [ORG_REDACTED] grille-pain. Référence : #90187. Adresse : 5 rue [PERSON_REDACTED], [PERSON_REDACTED].",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-02T10:35:00Z"
+  },
+  {
+    "ticket_id": "T136",
+    "subject": "Non ricevo l’SMS per convalidare l’acquisto",
+    "body": "Salve, non ricevo il codice sul mio numero[PHONE_REDACTED]. Non posso finalizzare il pagamento.",
+    "lang": "it",
+    "channel": "web",
+    "timestamp": "2025-05-02T11:10:00Z"
+  },
+  {
+    "ticket_id": "T137",
+    "subject": "Mi cuenta [ORG_REDACTED] suspendida [PERSON_REDACTED]",
+    "body": "Intenté ingresar hoy y dice que mi cuenta fue deshabilitada. ¿Por qué? Correo: [EMAIL_REDACTED]",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-05-02T11:45:00Z"
+  },
+  {
+    "ticket_id": "T138",
+    "subject": "[PERSON_REDACTED] closes when opening order details",
+    "body": "Every time I click on a past order, the app force quits. [ORG_REDACTED] 13, [ORG_REDACTED] Galaxy [ORG_REDACTED].",
+    "lang": "en",
+    "channel": "mobile",
+    "timestamp": "2025-05-02T12:20:00Z"
+  },
+  {
+    "ticket_id": "T139",
+    "subject": "[ORG_REDACTED] indevida no cartão",
+    "body": "Vejo uma [ORG_REDACTED] R$ 259 no meu cartão que não reconheço. Final 0881. Podem verificar?",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-05-02T12:55:00Z"
+  },
+  {
+    "ticket_id": "T140",
+    "subject": "[PERSON_REDACTED]",
+    "body": "Le livreur [PERSON_REDACTED] pas [PERSON_REDACTED] signer quoi que [PERSON_REDACTED]. C’est problématique pour mes remboursements internes.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-02T13:30:00Z"
+  },
+  {
+    "ticket_id": "T141",
+    "subject": "Commande annulée sans raison",
+    "body": "Bonjour, ma commande #99211 a été annulée alors que le paiement est passé. Mon email : [EMAIL_REDACTED]",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-03T08:10:00Z"
+  },
+  {
+    "ticket_id": "T142",
+    "subject": "[ORG_REDACTED] com a atualização de endereço",
+    "body": "Mudei meu endereço para [PERSON_REDACTED] 765, [PERSON_REDACTED], mas o pedido foi [PERSON_REDACTED] antigo. [ORG_REDACTED] #88221.",
+    "lang": "pt",
+    "channel": "web",
+    "timestamp": "2025-05-03T08:45:00Z"
+  },
+  {
+    "ticket_id": "T143",
+    "subject": "[ORG_REDACTED] status stuck on 'processing'",
+    "body": "It’s been [DATE_REDACTED] and my order #77432 still says 'processing'. [PERSON_REDACTED] was charged (ending in [DATE_REDACTED]).",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-05-03T09:20:00Z"
+  },
+  {
+    "ticket_id": "T144",
+    "subject": "Rücksendung [GPE_REDACTED] nicht anerkannt",
+    "body": "Ich habe den [ORG_REDACTED] letzte [ORG_REDACTED] zurückgeschickt. [ORG_REDACTED] wird mir nichts gutgeschrieben. Name: [PERSON_REDACTED]",
+    "lang": "de",
+    "channel": "email",
+    "timestamp": "2025-05-03T09:55:00Z"
+  },
+  {
+    "ticket_id": "T145",
+    "subject": "No llega el reembolso a mi cuenta",
+    "body": "Hola, me prometieron [ORG_REDACTED] aún no aparece en mi cuenta [ORG_REDACTED]. ¿[PERSON_REDACTED] tarda normalmente?",
+    "lang": "es",
+    "channel": "email",
+    "timestamp": "2025-05-03T10:30:00Z"
+  },
+  {
+    "ticket_id": "T146",
+    "subject": "[GPE_REDACTED] errata – manca intestazione aziendale",
+    "body": "La ricevuta per l’ordine #100912 è intestata a persona fisica. Serve '[ORG_REDACTED].",
+    "lang": "it",
+    "channel": "email",
+    "timestamp": "2025-05-03T11:05:00Z"
+  },
+  {
+    "ticket_id": "T147",
+    "subject": "Impossible d’ajouter une nouvelle carte",
+    "body": "[GPE_REDACTED] je tente d’ajouter ma nouvelle carte [PERSON_REDACTED] (**** [DATE_REDACTED]), j’ai une erreur 'carte invalide'. Testé sur Chrome et [PERSON_REDACTED].",
+    "lang": "fr",
+    "channel": "web",
+    "timestamp": "2025-05-03T11:40:00Z"
+  },
+  {
+    "ticket_id": "T148",
+    "subject": "App shows wrong delivery date",
+    "body": "My order #76392 shows expected delivery [DATE_REDACTED], but tracking says [DATE_REDACTED]. Please clarify.",
+    "lang": "en",
+    "channel": "mobile",
+    "timestamp": "2025-05-03T12:15:00Z"
+  },
+  {
+    "ticket_id": "T149",
+    "subject": "[ORG_REDACTED] 'HOLA15' no funciona",
+    "body": "Intenté usar [ORG_REDACTED] en mi primera compra y me dice 'código inválido'. Navegador: Edge",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-05-03T12:50:00Z"
+  },
+  {
+    "ticket_id": "T150",
+    "subject": "Envio duplicado",
+    "body": "Recebi dois pacotes iguais hoje. Não quero ser cobrado duas vezes. Nome: [PERSON_REDACTED].",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-05-03T13:25:00Z"
+  },
+  {
+    "ticket_id": "T151",
+    "subject": "[PERSON_REDACTED] facturation",
+    "body": "Ma facture affiche encore mon ancienne adresse : 128 rue [GPE_REDACTED], [GPE_REDACTED]. Merci de corriger pour mes déclarations.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-04T08:10:00Z"
+  },
+  {
+    "ticket_id": "T152",
+    "subject": "No puedo descargar la etiqueta de devolución",
+    "body": "[PERSON_REDACTED] clic en [ORG_REDACTED] para la devolución, aparece [ORG_REDACTED] error 404. [ORG_REDACTED]: #987321",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-05-04T08:45:00Z"
+  },
+  {
+    "ticket_id": "T153",
+    "subject": "Wrong price charged",
+    "body": "The website said $49.99 but I was charged $59.99 on my card ending in [DATE_REDACTED]. Please refund the difference.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-05-04T09:20:00Z"
+  },
+  {
+    "ticket_id": "T154",
+    "subject": "Errore nel nome sulla fattura",
+    "body": "Il mio nome è scritto male nella fattura: risulta '[PERSON_REDACTED]' invece di '[PERSON_REDACTED]'. Ordine #775432",
+    "lang": "it",
+    "channel": "email",
+    "timestamp": "2025-05-04T09:55:00Z"
+  },
+  {
+    "ticket_id": "T155",
+    "subject": "Produto não está mais funcionando",
+    "body": "Comprei um fone bluetooth e parou de funcionar após uma semana. Nome: [PERSON_REDACTED]",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-05-04T10:30:00Z"
+  },
+  {
+    "ticket_id": "T156",
+    "subject": "Rückerstattung geht auf falsche [GPE_REDACTED]",
+    "body": "[PERSON_REDACTED] auf eine [PERSON_REDACTED] gebucht (**** 4812). Ich benutze jetzt **** 7220.",
+    "lang": "de",
+    "channel": "email",
+    "timestamp": "2025-05-04T11:05:00Z"
+  },
+  {
+    "ticket_id": "T157",
+    "subject": "Cannot apply loyalty points",
+    "body": "I have 2,300 loyalty points but the system won’t let me use them at checkout. Account: [EMAIL_REDACTED]",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-05-04T11:40:00Z"
+  },
+  {
+    "ticket_id": "T158",
+    "subject": "Impossible de contacter le livreur",
+    "body": "Le [PERSON_REDACTED] suivi renvoie vers une page vide. [PERSON_REDACTED]. Mon colis est urgent.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-04T12:15:00Z"
+  },
+  {
+    "ticket_id": "T159",
+    "subject": "[GPE_REDACTED] aplicado mas valor errado",
+    "body": "Usei o código [PERSON_REDACTED] mas o desconto foi de apenas 5%. [ORG_REDACTED] #732218",
+    "lang": "pt",
+    "channel": "web",
+    "timestamp": "2025-05-04T12:50:00Z"
+  },
+  {
+    "ticket_id": "T160",
+    "subject": "Verzögerung beim [GPE_REDACTED]",
+    "body": "[PERSON_REDACTED] steht seit 3 [ORG_REDACTED] auf 'wird vorbereitet'. Ich brauche sie dringend bis Freitag.",
+    "lang": "de",
+    "channel": "web",
+    "timestamp": "2025-05-04T13:25:00Z"
+  },
+  {
+    "ticket_id": "T161",
+    "subject": "[ORG_REDACTED] déclaré livré [PERSON_REDACTED] reçu",
+    "body": "Bonjour, [ORG_REDACTED] indique que le colis a été livré hier à 16h20. [PERSON_REDACTED] n’ai rien reçu. Adresse : 19 avenue [PERSON_REDACTED], [PERSON_REDACTED].",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-05T08:10:00Z"
+  },
+  {
+    "ticket_id": "T162",
+    "subject": "No recibí la confirmación del pedido",
+    "body": "Hice el pedido hace una hora y aún no llega el correo de confirmación. Mi correo es [EMAIL_REDACTED]",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-05-05T08:45:00Z"
+  },
+  {
+    "ticket_id": "T163",
+    "subject": "Missing invoice for expense report",
+    "body": "I need the invoice for order #555093 to submit my work expense. Account email: [EMAIL_REDACTED]",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-05-05T09:20:00Z"
+  },
+  {
+    "ticket_id": "T164",
+    "subject": "Erro na cobrança",
+    "body": "[GPE_REDACTED] em duplicidade no cartão final [DATE_REDACTED]. Pedido único, [ORG_REDACTED] foi debitado duas vezes.",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-05-05T09:55:00Z"
+  },
+  {
+    "ticket_id": "T165",
+    "subject": "Rechnung auf falschen [GPE_REDACTED]",
+    "body": "[PERSON_REDACTED] wurde auf '[PERSON_REDACTED] ausgestellt. [PERSON_REDACTED] auf [PERSON_REDACTED]: [PERSON_REDACTED].",
+    "lang": "de",
+    "channel": "email",
+    "timestamp": "2025-05-05T10:30:00Z"
+  },
+  {
+    "ticket_id": "T166",
+    "subject": "Non trovo l’opzione per il reso",
+    "body": "[GPE_REDACTED] restituire l’articolo ma non trovo il pulsante '[PERSON_REDACTED] reso' nella sezione ordini. Ordine #904331.",
+    "lang": "it",
+    "channel": "web",
+    "timestamp": "2025-05-05T11:05:00Z"
+  },
+  {
+    "ticket_id": "T167",
+    "subject": "Live chat unresponsive",
+    "body": "I’ve been waiting for 20 minutes in the chat queue. Still no response from any agent. It’s urgent.",
+    "lang": "en",
+    "channel": "chat",
+    "timestamp": "2025-05-05T11:40:00Z"
+  },
+  {
+    "ticket_id": "T168",
+    "subject": "Código promocional expirado antes do prazo",
+    "body": "O código 'MAIO15' já [PERSON_REDACTED], mas a promoção vai até dia 10/05.",
+    "lang": "pt",
+    "channel": "web",
+    "timestamp": "2025-05-05T12:15:00Z"
+  },
+  {
+    "ticket_id": "T169",
+    "subject": "[GPE_REDACTED] elettronica non ricevuta",
+    "body": "Ordine #812190 consegnato ma [ORG_REDACTED] ricevuto [GPE_REDACTED] elettronica via [ORG_REDACTED].",
+    "lang": "it",
+    "channel": "email",
+    "timestamp": "2025-05-05T12:50:00Z"
+  },
+  {
+    "ticket_id": "T170",
+    "subject": "[ORG_REDACTED] erroné",
+    "body": "Le suivi indique 'livré' à une autre ville que [PERSON_REDACTED]. Nom : Théo Marchand. Merci d’enquêter.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-05T13:25:00Z"
+  },
+  {
+    "ticket_id": "T171",
+    "subject": "Erreur dans le [PERSON_REDACTED]",
+    "body": "Bonjour, le livreur [PERSON_REDACTED] pas pu me [PERSON_REDACTED] mon [ORG_REDACTED] est erroné sur le bon : 06 82 44 [DATE_REDACTED] le bon.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-06T08:10:00Z"
+  },
+  {
+    "ticket_id": "T172",
+    "subject": "[ORG_REDACTED] duplicado",
+    "body": "Hice [ORG_REDACTED] solo pedido, pero recibí dos cobros y dos emails de confirmación. Nombre: Diego Rivas.",
+    "lang": "es",
+    "channel": "email",
+    "timestamp": "2025-05-06T08:45:00Z"
+  },
+  {
+    "ticket_id": "T173",
+    "subject": "Can't change delivery date",
+    "body": "I need to reschedule delivery for order #781231 but the 'change date' button is greyed out.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-05-06T09:20:00Z"
+  },
+  {
+    "ticket_id": "T174",
+    "subject": "Problema com boleto vencido",
+    "body": "Tentei pagar com boleto mas passou o vencimento. [GPE_REDACTED] posso pagar ou refaço o pedido?",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-05-06T09:55:00Z"
+  },
+  {
+    "ticket_id": "T175",
+    "subject": "Falsche Lieferadresse verwendet",
+    "body": "Obwohl ich sie [PERSON_REDACTED], [PERSON_REDACTED] Paket an meine alte Adresse geschickt: Goethestraße 11, [GPE_REDACTED].",
+    "lang": "de",
+    "channel": "email",
+    "timestamp": "2025-05-06T10:30:00Z"
+  },
+  {
+    "ticket_id": "T176",
+    "subject": "Impossibile tracciare la spedizione",
+    "body": "Il numero di tracking SDA-8745632 risulta inesistente. [PERSON_REDACTED] confermare se è corretto?",
+    "lang": "it",
+    "channel": "web",
+    "timestamp": "2025-05-06T11:05:00Z"
+  },
+  {
+    "ticket_id": "T177",
+    "subject": "Delivery agent was rude",
+    "body": "Your delivery driver was extremely rude and refused to bring the package to my door. Please escalate this complaint.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-05-06T11:40:00Z"
+  },
+  {
+    "ticket_id": "T178",
+    "subject": "Facture avec mauvais taux de TVA",
+    "body": "[ORG_REDACTED] appliquée est de 10 %, alors que [PERSON_REDACTED] [ORG_REDACTED] à 5.5 %. Merci de corriger pour l’ordre #799201.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-06T12:15:00Z"
+  },
+  {
+    "ticket_id": "T179",
+    "subject": "[ORG_REDACTED] inserido mas não deu desconto",
+    "body": "[GPE_REDACTED] o código [ORG_REDACTED] e [GPE_REDACTED] assim foi cobrado o frete de R$ 12,90.",
+    "lang": "pt",
+    "channel": "web",
+    "timestamp": "2025-05-06T12:50:00Z"
+  },
+  {
+    "ticket_id": "T180",
+    "subject": "Problema con l'accesso via Facebook",
+    "body": "Clicco su 'Accedi con Facebook' ma la pagina resta bianca. Dispositivo: iPhone 14, iOS 17.",
+    "lang": "it",
+    "channel": "mobile",
+    "timestamp": "2025-05-06T13:25:00Z"
+  },
+  {
+    "ticket_id": "T181",
+    "subject": "Erreur dans la taille reçue",
+    "body": "J’ai commandé du 42 mais j’ai reçu une paire en taille 39. Référence commande #891234. Nom : [PERSON_REDACTED].",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-07T08:10:00Z"
+  },
+  {
+    "ticket_id": "T182",
+    "subject": "No puedo acceder a mi historial de pedidos",
+    "body": "Intento ver mis pedidos anteriores pero [ORG_REDACTED] vacía. Mi usuario es maria.fuentes92.",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-05-07T08:45:00Z"
+  },
+  {
+    "ticket_id": "T183",
+    "subject": "Payment failed but card charged",
+    "body": "I got a payment error, but my bank shows a $98.00 debit (card ending in [DATE_REDACTED]). No confirmation received.",
+    "lang": "en",
+    "channel": "email",
+    "timestamp": "2025-05-07T09:20:00Z"
+  },
+  {
+    "ticket_id": "T184",
+    "subject": "Produto chegou sem nota fiscal",
+    "body": "Recebi a encomenda hoje mas não veio NF-e. CNPJ da empresa: 45.928.001/0001-45",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-05-07T09:55:00Z"
+  },
+  {
+    "ticket_id": "T185",
+    "subject": "Rechnung fehlt im Paket",
+    "body": "Ich brauche die [PERSON_REDACTED] für meine [PERSON_REDACTED]. Sie war nicht im Paket enthalten. Bestellnummer: 773210.",
+    "lang": "de",
+    "channel": "email",
+    "timestamp": "2025-05-07T10:30:00Z"
+  },
+  {
+    "ticket_id": "T186",
+    "subject": "Errore nel colore dell’articolo ricevuto",
+    "body": "Ho ordinato il modello [PERSON_REDACTED], [PERSON_REDACTED] è arrivato in nero. [ORG_REDACTED] fare [ORG_REDACTED] [PERSON_REDACTED]? Ordine #991002.",
+    "lang": "it",
+    "channel": "email",
+    "timestamp": "2025-05-07T11:05:00Z"
+  },
+  {
+    "ticket_id": "T187",
+    "subject": "App keeps logging me out",
+    "body": "Every time I open the app, I’m asked to log in again. 'Remember me' doesn’t work.",
+    "lang": "en",
+    "channel": "mobile",
+    "timestamp": "2025-05-07T11:40:00Z"
+  },
+  {
+    "ticket_id": "T188",
+    "subject": "[PERSON_REDACTED] partielle, article manquant",
+    "body": "Le colis est arrivé [PERSON_REDACTED] manque le chargeur USB. Adresse : 42 [ORG_REDACTED]. Nom : [PERSON_REDACTED]",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-07T12:15:00Z"
+  },
+  {
+    "ticket_id": "T189",
+    "subject": "Cupón válido pero no se aplica",
+    "body": "El cupón VERANO20 figura [ORG_REDACTED] activo pero el descuento no aparece en [GPE_REDACTED].",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-05-07T12:50:00Z"
+  },
+  {
+    "ticket_id": "T190",
+    "subject": "[GPE_REDACTED] duplicado via PIX",
+    "body": "[PERSON_REDACTED] duas vezes o pedido #900321 via PIX porque a primeira tentativa ficou como 'pendente'. Preciso do estorno.",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-05-07T13:25:00Z"
+  },
+  {
+    "ticket_id": "T191",
+    "subject": "Facture non reçue par email",
+    "body": "Bonjour, je n’ai toujours pas reçu la facture de ma commande #872001. Mon adresse : [EMAIL_REDACTED]",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-08T08:15:00Z"
+  },
+  {
+    "ticket_id": "T192",
+    "subject": "Mi pedido [ORG_REDACTED] entregado a la dirección equivocada",
+    "body": "[ORG_REDACTED] aparece como entregado en [ORG_REDACTED], pero vivo en [GPE_REDACTED]. ¿[GPE_REDACTED] verificar [ORG_REDACTED] seguimiento?",
+    "lang": "es",
+    "channel": "email",
+    "timestamp": "2025-05-08T08:50:00Z"
+  },
+  {
+    "ticket_id": "T193",
+    "subject": "Can’t find how to download invoice",
+    "body": "There’s no download button for invoice on my order #884129. Using [PERSON_REDACTED] on Windows 11.",
+    "lang": "en",
+    "channel": "web",
+    "timestamp": "2025-05-08T09:20:00Z"
+  },
+  {
+    "ticket_id": "T194",
+    "subject": "Pedido chegou com item quebrado",
+    "body": "A garrafa térmica veio trincada. [ORG_REDACTED] enviar fotos? Pedido: 773981. Nome: [PERSON_REDACTED].",
+    "lang": "pt",
+    "channel": "email",
+    "timestamp": "2025-05-08T09:55:00Z"
+  },
+  {
+    "ticket_id": "T195",
+    "subject": "Fehlermeldung beim [PERSON_REDACTED]",
+    "body": "Ich bekomme einen '[PERSON_REDACTED] bei [PERSON_REDACTED], obwohl alles korrekt ist.",
+    "lang": "de",
+    "channel": "web",
+    "timestamp": "2025-05-08T10:30:00Z"
+  },
+  {
+    "ticket_id": "T196",
+    "subject": "Errore [PERSON_REDACTED]",
+    "body": "Ho ordinato 3 confezioni ma ne è arrivata solo una. Ordine #801299. Email: [EMAIL_REDACTED]",
+    "lang": "it",
+    "channel": "email",
+    "timestamp": "2025-05-08T11:05:00Z"
+  },
+  {
+    "ticket_id": "T197",
+    "subject": "[PERSON_REDACTED] crashes when uploading return photo",
+    "body": "Trying to start a return with photo proof, but the app crashes after selecting image. [ORG_REDACTED] 12.",
+    "lang": "en",
+    "channel": "mobile",
+    "timestamp": "2025-05-08T11:40:00Z"
+  },
+  {
+    "ticket_id": "T198",
+    "subject": "Article reçu sans câble d’alimentation",
+    "body": "L’imprimante est arrivée sans câble secteur. Impossible de l’utiliser. [PERSON_REDACTED] commande : 762399.",
+    "lang": "fr",
+    "channel": "email",
+    "timestamp": "2025-05-08T12:15:00Z"
+  },
+  {
+    "ticket_id": "T199",
+    "subject": "[ORG_REDACTED] no válido",
+    "body": "El cupón [PERSON_REDACTED]no válido' aunque está en la homepage como activo hasta el 10/05.",
+    "lang": "es",
+    "channel": "web",
+    "timestamp": "2025-05-08T12:50:00Z"
+  },
+  {
+    "ticket_id": "T200",
+    "subject": "Problema na atualização de senha",
+    "body": "[ORG_REDACTED] o link para redefinir minha senha, mas ao clicar, aparece 'link inválido ou expirado'.",
+    "lang": "pt",
+    "channel": "web",
+    "timestamp": "2025-05-08T13:25:00Z"
+  }
+]
