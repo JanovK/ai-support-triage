@@ -3,8 +3,12 @@ import spacy
 import argparse
 from pathlib import Path
 
-# Load English NLP pipeline (customize per language later)
-nlp = spacy.load("en_core_web_sm")
+# Load English NLP pipeline with fallback to blank model if missing
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    from spacy.lang.en import English
+    nlp = English()
 
 # Regex patterns for PII
 PATTERNS = {

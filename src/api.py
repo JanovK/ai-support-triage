@@ -1,5 +1,8 @@
 import sys
 import os
+import pickle
+import numpy as np
+import hdbscan
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
 
 from dotenv import load_dotenv
@@ -9,7 +12,7 @@ from pydantic import BaseModel
 from mask_pii import mask_text
 from urgency_score import hybrid_urgency_score
 from sentence_transformers import SentenceTransformer
-import hdbscan
+from pathlib import Path
 
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
@@ -21,6 +24,25 @@ def verify_api_key(
 ):
     if credentials.scheme.lower() != "bearer" or credentials.credentials != API_KEY:
         raise HTTPException(status_code=403, detail="Invalid or missing API key")
+
+# Load cached clusterer and centroids
+CACHE_PATH = Path("cache/cluster_cache.pkl")
+if CACHE_PATH.exists():
+    cache = pickle.loads(CACHE_PATH.read_bytes())
+    centroids = cache["centroids"]
+    cluster_ids = cache["cluster_ids"]
+else:
+    centroids = np.empty((0,))  # fallback empty
+    cluster_ids = []
+
+def assign_cluster(embedding: np.ndarray) -> int:
+    if centroids.size == 0:
+        return -1
+    # compute L2 distances
+    dists = np.linalg.norm(centroids - embedding, axis=1)
+    idx = int(np.argmin(dists))
+    # ensure Python int
+    return int(cluster_ids[idx])
 
 app = FastAPI(title="AI Support Triage API", version="1.0.0")
 
@@ -43,17 +65,17 @@ def health_check():
     dependencies=[Security(verify_api_key)]
 )
 def analyze_ticket(ticket: TicketInput):
-    # 1) Anonymize
+    # Anonymize
     combined = f"{ticket.subject} {ticket.body}"
     masked_text = mask_text(combined, lang=ticket.lang)
 
-    # 2) Embed
+    # Embed
     embedding = bert_model.encode([masked_text])[0]
 
-    # 3) Cluster (stubbed as -1 for single-ticket API)
-    cluster_label = -1
+    # Cluster
+    cluster_label = assign_cluster(embedding)
 
-    # 4) Score urgency
+    # Score urgency
     t = {"ticket_id": "API", "subject": ticket.subject, "body": ticket.body}
     scored = hybrid_urgency_score(t)
 

@@ -8,7 +8,13 @@ from sentence_transformers import SentenceTransformer
 import hdbscan
 import spacy
 
-nlp = spacy.load("en_core_web_sm")
+# Load spaCy for keyword extraction, fallback if model isn't installed
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    from spacy.lang.en import English
+    nlp = English()
+
 
 def load_tickets(filepath: Path) -> List[dict]:
     with open(filepath, "r", encoding="utf-8") as f:
