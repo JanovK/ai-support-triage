@@ -1,0 +1,39 @@
+name: Nightly Batch Clustering
+
+# Run every day at 02:00 UTC (adjust as needed)
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  batch-cluster:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧾 Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true   # so we can push back
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m spacy download en_core_web_sm
+
+      - name: 🔄 Run batch clustering
+        run: python src/batch_cluster.py
+
+      - name: 🔨 Commit and push updated cache
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cache/cluster_cache.pkl
+          git diff --staged --quiet || git commit -m "chore: nightly update of cluster cache"
+          git push
